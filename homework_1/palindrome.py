@@ -9,7 +9,7 @@ def palindrome(number):
     while number > 0:
         digit = number % 10
         reversed_number = reversed_number * 10 + digit
-        number = number //10
+        number = number // 10
     if original == reversed_number:
         return 'True'
     else:
